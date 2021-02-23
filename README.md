@@ -92,7 +92,7 @@ func FofaExample() {
 
 #### 0x01 下载
 
-直接下载即可使用
+直接下载即可使用,链接：<a href="https://github.com/xiaoyu-0814/fofa-go/releases/tag/v1.0.0"><font face="menlo">`FOFA Cli`</font></a>
 
 #### 0x02 使用方法
 
