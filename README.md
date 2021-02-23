@@ -94,6 +94,9 @@ func FofaExample() {
 
 直接下载即可使用,链接：<a href="https://github.com/xiaoyu-0814/fofa-go/releases/tag/v1.0.0"><font face="menlo">`FOFA Cli`</font></a>
 
+linux需要加权限并在root用户下运行：chmod +777 fofa
+
+
 #### 0x02 使用方法
 
 在成功下载之后，可直接在终端下使用`fofa`命令，如下：
