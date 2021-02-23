@@ -1,4 +1,4 @@
-package fofa_cli
+package main
 
 import (
 	"bufio"

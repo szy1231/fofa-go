@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f43b3a5-fc66-4ace-8de1-102a9520248a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/fofa_cli/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/fofa_cli/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fofa_cli/err.go" beforeDir="false" afterPath="$PROJECT_DIR$/fofa_cli/err.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fofa_cli/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fofa_cli/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fofa_cli/options.go" beforeDir="false" afterPath="$PROJECT_DIR$/fofa_cli/options.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nKS0zic9gSjE2fgnXEkirA6190" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../go_test" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\fofa-go\fofa_cli" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.go test github.com/xiaoyu-0814/fofa-go/fofa">
+    <configuration name="go build fofa-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="fofa-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="fofa-go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build fofa-go/brun" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="fofa-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/brun/main.go" />
+      <package value="fofa-go/brun" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build fofa-go/fofa_cli" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="fofa-go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/fofa_cli/maincmd.go" />
+      <package value="fofa-go/fofa_cli" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFofa_UserInfo in fofa-go/fofa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fofa-go" />
+      <working_directory value="$PROJECT_DIR$/fofa" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="fofa-go/fofa" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestFofa_UserInfo\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/xiaoyu-0814/fofa-go/fofa" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="fofa-go" />
+      <working_directory value="$PROJECT_DIR$/fofa" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xiaoyu-0814/fofa-go/fofa" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.go test github.com/xiaoyu-0814/fofa-go/fofa" />
+        <item itemvalue="Go Build.go build fofa-go/fofa_cli" />
+        <item itemvalue="Go Build.go build fofa-go/brun" />
+        <item itemvalue="Go Build.go build fofa-go" />
+        <item itemvalue="Go Test.TestFofa_UserInfo in fofa-go/fofa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="995" y="315" key="FileChooserDialogImpl" timestamp="1614061894672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="315" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614061894672" />
+    <state width="978" height="139" key="GridCell.Tab.0.bottom" timestamp="1614060475849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="978" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614060475849" />
+    <state width="978" height="139" key="GridCell.Tab.0.center" timestamp="1614060475848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="978" height="139" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614060475848" />
+    <state width="978" height="139" key="GridCell.Tab.0.left" timestamp="1614060475848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="978" height="139" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614060475848" />
+    <state width="978" height="139" key="GridCell.Tab.0.right" timestamp="1614060475849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="978" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614060475849" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1614053013433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614053013433" />
+    <state x="663" y="236" width="594" height="568" key="find.popup" timestamp="1611543265256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="236" width="594" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611543265256" />
+    <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1611543802604">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611543802604" />
+  </component>
+</project>

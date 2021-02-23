@@ -1,5 +1,5 @@
 // package main
-package fofa_cli
+package main
 
 import (
 	"flag"
