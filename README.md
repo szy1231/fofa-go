@@ -257,5 +257,5 @@ Version：1.0.0
 
 `FOFA SDK` 遵循 `MIT` 协议 <a href="https://opensource.org/licenses/mit"><font face="menlo">https://opensource.org/licenses/mit</font></a>
 
-## 建议采集
+## 建议收集
 建议投递 邮箱：pasiyu0814@163.com
