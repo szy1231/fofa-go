@@ -92,7 +92,10 @@ func FofaExample() {
 
 #### 0x01 下载
 
-直接下载即可使用
+直接下载即可使用,链接：<a href="https://github.com/xiaoyu-0814/fofa-go/releases/tag/v1.0.0"><font face="menlo">`FOFA Cli`</font></a>
+
+linux需要加权限并在root用户下运行：chmod +777 fofa
+
 
 #### 0x02 使用方法
 
@@ -164,7 +167,7 @@ VipLevel：1
 
 ##### 3.查询
 
-query中**&&对应+，||对应-**，其他与FOFA 网页查询语法相同，具体请到[FOFA官网](https://fofa.so/)查看。
+注意：query中&&对应+，||对应-，query参数中多个条件时不能有空格和引号，其他与FOFA 网页查询语法相同，具体请到[FOFA官网](https://fofa.so/)查看。
 
 ###### 基本查询
 
