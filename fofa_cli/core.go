@@ -7,7 +7,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/xiaoyu-0814/fofa-go/fofa"
-
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -58,7 +57,7 @@ func search() {
 	fofaData, err := clt.QueryAsObject(uint(*page), []byte(*query), []byte(*fields))
 	fofaErr(err)
 	if *count {
-		fmt.Printf("\ntotal: %d", fofaData.Size)
+		fmt.Printf("\ntotal: %d\n", fofaData.Size)
 		os.Exit(0)
 	}
 	if *out != "" {
@@ -101,7 +100,7 @@ func search() {
 			}
 			fmt.Printf("%s\n", str)
 		}
-		fmt.Printf("\ntotal: %d", fofaData.Size)
+		fmt.Printf("\ntotal: %d\n", fofaData.Size)
 	}
 }
 
@@ -242,7 +241,7 @@ func fileExist(path string) bool {
 
 //cliVersion fmt cli version
 func cliVersion() {
-	fmt.Printf("\nVersion：%s", version)
+	fmt.Printf("\nVersion：%s\n", version)
 }
 
 //queryDomainParse Domain Exceptions
