@@ -15,6 +15,8 @@ var (
 	out    = flag.String("out", "", "output file path")
 	format = flag.String("format", "\t", "output format")
 	count  = flag.Bool("count", false, "only count the total number of matches,true or false")
+	size   = flag.Int("size", 100, "size number you want to query")
+	full   = flag.String("full", "false", "View all historical data")
 )
 
 func usage() {

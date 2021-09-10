@@ -99,7 +99,7 @@ func TestQueryAsJSON(t *testing.T) {
 				query = []byte(`host="nosec.org"`)
 				fields = []byte(`fields=domain`)
 				page = 1
-				arr, err = clt.QueryAsJSON(page, query, fields)
+				arr, err = clt.QueryAsJSON(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -111,7 +111,7 @@ func TestQueryAsJSON(t *testing.T) {
 				query = []byte(`host="nosec.org"`)
 				fields = []byte(`fields=host`)
 				page = 1
-				arr, err = clt.QueryAsJSON(page, query, fields)
+				arr, err = clt.QueryAsJSON(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -123,7 +123,7 @@ func TestQueryAsJSON(t *testing.T) {
 				query = []byte(`"nosec.org"`)
 				fields = []byte(`fields=domain`)
 				page = 1
-				arr, err = clt.QueryAsJSON(page, query, fields)
+				arr, err = clt.QueryAsJSON(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -135,7 +135,7 @@ func TestQueryAsJSON(t *testing.T) {
 				query = []byte(`"nosec.org"`)
 				fields = []byte(`fields=host`)
 				page = 1
-				arr, err = clt.QueryAsJSON(page, query, fields)
+				arr, err = clt.QueryAsJSON(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -148,7 +148,7 @@ func TestQueryAsJSON(t *testing.T) {
 			query = []byte(`host="nosec.org"`)
 			fields = nil
 			page = 1
-			arr, err = clt.QueryAsJSON(page, query)
+			arr, err = clt.QueryAsJSON(page, 100, query)
 			if err != nil {
 				t.Errorf("%v\n", err.Error())
 			} else {
@@ -181,7 +181,7 @@ func TestQueryAsStruct(t *testing.T) {
 				query = []byte(`host="nosec.org"`)
 				fields = []byte(`fields=domain`)
 				page = 1
-				data, err = clt.QueryAsObject(page, query, fields)
+				data, err = clt.QueryAsObject(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -194,7 +194,7 @@ func TestQueryAsStruct(t *testing.T) {
 				query = []byte(`host="nosec.org"`)
 				fields = []byte(`fields=host`)
 				page = 1
-				data, err = clt.QueryAsObject(page, query, fields)
+				data, err = clt.QueryAsObject(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -207,7 +207,7 @@ func TestQueryAsStruct(t *testing.T) {
 				query = []byte(`"nosec.org"`)
 				fields = []byte(`fields=domain`)
 				page = 1
-				data, err = clt.QueryAsObject(page, query, fields)
+				data, err = clt.QueryAsObject(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -220,7 +220,7 @@ func TestQueryAsStruct(t *testing.T) {
 				query = []byte(`"nosec.org"`)
 				fields = []byte(`fields=host`)
 				page = 1
-				data, err = clt.QueryAsObject(page, query, fields)
+				data, err = clt.QueryAsObject(page, 100, query, fields)
 				if err != nil {
 					t.Errorf("%v\n", err.Error())
 				} else {
@@ -234,7 +234,7 @@ func TestQueryAsStruct(t *testing.T) {
 			query = []byte(`host="nosec.org"`)
 			fields = nil
 			page = 1
-			data, err = clt.QueryAsObject(page, query)
+			data, err = clt.QueryAsObject(page, 100, query)
 			if err != nil {
 				t.Errorf("%v\n", err.Error())
 			} else {
@@ -258,7 +258,7 @@ func TestIP(t *testing.T) {
 
 	query = []byte(`ip="106.75.75.203"`)
 	fields = []byte(`host,domain,ip,port,title,city,country`)
-	data, err = clt.QueryAsObject(1, query, fields)
+	data, err = clt.QueryAsObject(1, 100, query, fields)
 	switch {
 	case err != nil:
 		t.Errorf("%v\n", err.Error())

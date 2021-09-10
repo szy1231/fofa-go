@@ -167,12 +167,10 @@ VipLevel：1
 
 ##### 3.查询
 
-注意：query中&&对应+，||对应-，query参数中多个条件时不能有空格和引号，其他与FOFA 网页查询语法相同，具体请到[FOFA官网](https://fofa.so/)查看。
-
 ###### 基本查询
 
 ```fofa_cli
-$ fofa_cli search -query domain=163.com+port=443
+$ fofa_cli search -query "domain=163.com && port=443"
 103.254.188.71  443
 59.111.18.135   443
 59.111.137.212  443
@@ -192,7 +190,7 @@ fields：ip,port,protocol
 page：1
 
 ```fofa_cli
-$ fofa_cli search -query domain=163.com-domain=126.com -fields ip,port,protocol,title -page 2
+$ fofa_cli search -query "domain=163.com || domain=126.com" -fields ip,port,protocol,title -page 2
 101.71.154.230  80      nil     301 Moved Permanently
 42.186.69.125   80      nil     nil
 123.126.96.212  80      nil     nil

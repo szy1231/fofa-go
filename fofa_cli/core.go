@@ -50,11 +50,10 @@ func search() {
 		os.Exit(0)
 	}
 
-	*query = strings.ReplaceAll(*query, "+", "&&")
-	*query = strings.ReplaceAll(*query, "-", "||")
+
 	*query = queryDomainParse(*query)
 
-	fofaData, err := clt.QueryAsObject(uint(*page), []byte(*query), []byte(*fields))
+	fofaData, err := clt.QueryAsObject(uint(*page), uint(*size), *full, []byte(*query), []byte(*fields))
 	fofaErr(err)
 	if *count {
 		fmt.Printf("\ntotal: %d\n", fofaData.Size)

@@ -18,14 +18,14 @@ func FofaExample() {
 		return
 	}
 	//QueryAsJSON
-	ret, err := clt.QueryAsJSON(1, []byte(`body="小米"`))
+	ret, err := clt.QueryAsJSON(1, 100, []byte(`body="小米"`))
 	if err != nil {
 		fmt.Printf("%v\n", err.Error())
 		return
 	}
 	fmt.Printf("%s\n", ret)
 	//QueryAsObject
-	data, err := clt.QueryAsObject(1, []byte(`domain="163.com"`), []byte("ip,host,title"))
+	data, err := clt.QueryAsObject(1, 1000, []byte(`domain="163.com"`), []byte("ip,host,title"))
 	if err != nil {
 		fmt.Printf("%v\n", err.Error())
 		return
