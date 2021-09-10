@@ -92,7 +92,10 @@ func FofaExample() {
 
 #### 0x01 下载
 
-直接下载即可使用
+直接下载即可使用,链接：<a href="https://github.com/xiaoyu-0814/fofa-go/releases/tag/v1.0.0"><font face="menlo">`FOFA Cli`</font></a>
+
+linux需要加权限并在root用户下运行：chmod +777 fofa
+
 
 #### 0x02 使用方法
 
@@ -164,12 +167,10 @@ VipLevel：1
 
 ##### 3.查询
 
-query中**&&对应+，||对应-**，其他与FOFA 网页查询语法相同，具体请到[FOFA官网](https://fofa.so/)查看。
-
 ###### 基本查询
 
 ```fofa_cli
-$ fofa_cli search -query domain=163.com+port=443
+$ fofa_cli search -query "domain=163.com && port=443"
 103.254.188.71  443
 59.111.18.135   443
 59.111.137.212  443
@@ -189,7 +190,7 @@ fields：ip,port,protocol
 page：1
 
 ```fofa_cli
-$ fofa_cli search -query domain=163.com-domain=126.com -fields ip,port,protocol,title -page 2
+$ fofa_cli search -query "domain=163.com || domain=126.com" -fields ip,port,protocol,title -page 2
 101.71.154.230  80      nil     301 Moved Permanently
 42.186.69.125   80      nil     nil
 123.126.96.212  80      nil     nil
@@ -253,3 +254,6 @@ Version：1.0.0
 ## 协议
 
 `FOFA SDK` 遵循 `MIT` 协议 <a href="https://opensource.org/licenses/mit"><font face="menlo">https://opensource.org/licenses/mit</font></a>
+
+## 建议收集
+建议投递 邮箱：pasiyu0814@163.com
